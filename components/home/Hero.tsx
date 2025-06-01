@@ -3,7 +3,7 @@
 import Link from "next/link";
 import { Button } from "@/components/ui/button";
 import { motion } from "framer-motion";
-
+import { SITE_CONFIG } from "@/lib/constants";
 export default function Hero() {
   return (
     <section className="relative h-screen flex items-center justify-center overflow-hidden">
@@ -11,7 +11,7 @@ export default function Hero() {
       <div
         className="absolute inset-0 z-0 bg-cover bg-center"
         style={{
-          backgroundImage: "url('https://images.pexels.com/photos/668196/pexels-photo-668196.jpeg')",
+          backgroundImage: `url('${SITE_CONFIG.backgroundImage}')`,
         }}
       >
         <div className="absolute inset-0 bg-[#2a2c32]/60" />

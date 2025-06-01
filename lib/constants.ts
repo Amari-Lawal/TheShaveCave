@@ -7,7 +7,11 @@ export const SITE_CONFIG = {
     instagram: "https://instagram.com/theshavecave",
     facebook: "https://facebook.com/theshavecave",
     twitter: "https://twitter.com/theshavecave",
-  }
+  },
+  acuityBookingSrc:"https://app.acuityscheduling.com/schedule.php?owner=35943400&ref=embedded_csp",
+  backgroundImage:"https://images.pexels.com/photos/668196/pexels-photo-668196.jpeg"
+
+
 };
 
 export const SERVICES = [

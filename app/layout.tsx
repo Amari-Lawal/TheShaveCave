@@ -5,7 +5,7 @@ import { Toaster } from "sonner";
 import "./globals.css";
 import JsonLd from "@/components/shared/JsonLd";
 import { SITE_CONFIG } from "@/lib/constants";
-
+import Head from 'next/head';
 // Fonts
 const inter = Inter({ 
   subsets: ["latin"],
@@ -24,6 +24,9 @@ export const metadata: Metadata = {
   title: {
     default: `${SITE_CONFIG.name} | Premium Barbershop Experience`,
     template: `%s | ${SITE_CONFIG.name}`,
+  },
+  icons: {
+    icon: "/favicon.ico", // Path to favicon in /public
   },
   description: SITE_CONFIG.description,
   keywords: "barbershop, haircut, beard trim, hot towel shave, men's grooming, barber, fade, haircut styles",
