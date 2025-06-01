@@ -1,9 +1,11 @@
+"use client"
 import Link from "next/link";
 import Image from "next/image";
-import { ChevronRight } from "lucide-react";
-import { SERVICES } from "@/lib/constants";
-
+import { ChevronRight,ChevronDown,ChevronUp } from "lucide-react";
+import { OTHER_SERVICES, SERVICES } from "@/lib/constants";
+import { useState } from "react";
 export default function Services() {
+  const [ShowOtherServices,setShowOtherServices] = useState(false);
   return (
     <section className="py-20 bg-zinc-100" id="services">
       <div className="container mx-auto px-4">
@@ -50,7 +52,56 @@ export default function Services() {
               </div>
             </div>
           ))}
+          
         </div>
+        <div className="flex mt-3">
+          <p>Other Services</p>
+          <a onClick={() =>{setShowOtherServices(!ShowOtherServices)}} style={{cursor:"pointer"}}>
+            {!ShowOtherServices ? 
+            <ChevronDown color="#c48457"></ChevronDown>
+            :
+            <ChevronUp color="#c48457"></ChevronUp> }
+          </a>
+        </div>
+        { ShowOtherServices && 
+        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+          {OTHER_SERVICES.map((service) => (
+            <div 
+              key={service.id}
+              className="group bg-white shadow-md hover:shadow-xl transition-shadow duration-300"
+            >
+              <div className="relative h-64 overflow-hidden">
+                <Image
+                  src={service.image}
+                  alt={service.title}
+                  layout="fill"
+                  objectFit="cover"
+                  className="group-hover:scale-105 transition-transform duration-500"
+                />
+                <div className="absolute inset-0 bg-[#2a2c32]/20 group-hover:bg-[#2a2c32]/40 transition-colors duration-300"></div>
+              </div>
+              <div className="p-6">
+                <div className="flex justify-between items-center mb-4">
+                  <h4 className="text-xl font-serif text-zinc-900">{service.title}</h4>
+                  <span className="text-lg font-medium text-amber-600">{service.price}</span>
+                </div>
+                <p className="text-zinc-600 mb-4">{service.description}</p>
+                <div className="flex items-center justify-between">
+                  <span className="text-sm text-zinc-500">Duration: {service.duration}</span>
+                  <Link 
+                    href="/#booking" 
+                    className="flex items-center text-amber-600 hover:text-amber-700 font-medium transition-colors"
+                  >
+                    Book Now <ChevronRight className="h-4 w-4 ml-1" />
+                  </Link>
+                </div>
+              </div>
+            </div>
+          ))}
+          
+        </div>
+        
+        }
       </div>
     </section>
   );

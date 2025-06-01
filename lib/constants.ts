@@ -61,6 +61,82 @@ export const SERVICES = [
   }
 ];
 
+export const OTHER_SERVICES = [
+  
+    {
+    id: "head-shave-beard-trim",
+    title: "Head shave + beard trim",
+    description: "Head shave with razors or foils and beard trim.",
+    price: "£23",
+    duration: "45 min",
+    image: "https://images.pexels.com/photos/1570807/pexels-photo-1570807.jpeg"
+  },
+    {
+    id: "skin-fade-taper-fade-12-17",
+    title: "Skin Fade/ taper fade 12 - 17yrs",
+    description: "Head shave with razors or foils and beard trim.",
+    price: "£18",
+    duration: "40 min",
+    image: "https://images.pexels.com/photos/4969888/pexels-photo-4969888.jpeg"
+  },
+      {
+    id: "hot-towel-shave",
+    title: "Hot Towel Shave",
+    description: "Head shave with razors or foils and beard trim.",
+    price: "£14",
+    duration: "30 min",
+    image: "https://images.pexels.com/photos/1683975/pexels-photo-1683975.jpeg"
+  },
+    {
+    id: "hot-towel-head-shave",
+    title: "Hot Towel Head Shave",
+    description: "Head shave with razors or foils and beard trim.",
+    price: "£14",
+    duration: "30 min",
+    image: "https://images.pexels.com/photos/1805600/pexels-photo-1805600.jpeg"
+  },
+    {
+    id: "o-a-p",
+    title: "O.A.P",
+    description: "Head shave with razors or foils and beard trim.",
+    price: "£12",
+    duration: "30 min",
+    image: "https://images.pexels.com/photos/4969888/pexels-photo-4969888.jpeg"
+  },
+  {
+    id: "beard-grooming",
+    title: "O.A.P",
+    description: "Head shave with razors or foils and beard trim.",
+    price: "£9",
+    duration: "15 min",
+    image: "https://images.pexels.com/photos/2881253/pexels-photo-2881253.jpeg"
+  },
+  {
+    id: "full-face-wax",
+    title: "Full face Wax",
+    description: "Head shave with razors or foils and beard trim.",
+    price: "£7",
+    duration: "10 min",
+    image: "https://images.pexels.com/photos/1319461/pexels-photo-1319461.jpeg"
+  },
+    {
+    id: "nose-wax",
+    title: "Nose Waxing",
+    description: "Head shave with razors or foils and beard trim.",
+    price: "£2",
+    duration: "5 min",
+    image: "https://images.pexels.com/photos/4969888/pexels-photo-4969888.jpeg"
+  },
+  {
+    id: "ears-wax",
+    title: "Ears Waxing",
+    description: "Head shave with razors or foils and beard trim.",
+    price: "£2",
+    duration: "5 min",
+    image: "https://images.pexels.com/photos/4969888/pexels-photo-4969888.jpeg"
+  }
+]
+
 export const TEAM = [
   {
     id: "james-wilson",

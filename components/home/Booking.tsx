@@ -75,7 +75,7 @@ export default function Booking() {
         <div className="text-center max-w-xl mx-auto mb-16">
           <h2 className="text-sm font-medium tracking-wider text-amber-600 uppercase mb-2">Appointments</h2>
           <h3 className="text-4xl font-serif text-zinc-900 mb-4">Book Your Visit</h3>
-          <div className="w-20 h-1 bg-[#a3826b] mx-auto mb-6"></div>
+          <div className="w-20 h-1 bg-amber-600 mx-auto mb-6"></div>
           <p className="text-zinc-600">
             Schedule your appointment using our online booking system for a convenient and hassle-free experience.
           </p>
@@ -264,7 +264,7 @@ export default function Booking() {
 
               <Button 
                 type="submit" 
-                className="w-full bg-[#a3826b] hover:bg-amber-800 text-white"
+                className="w-full bg-amber-600 hover:bg-amber-700 text-white"
                 disabled={isSubmitting}
               >
                 {isSubmitting ? "Submitting..." : "Book Appointment"}
