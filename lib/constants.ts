@@ -1,12 +1,12 @@
 export const SITE_CONFIG = {
   name: "The Shave Cave",
   description: "Premium barbershop offering classic cuts, hot towel shaves, and beard grooming in a relaxed atmosphere.",
-  url: "https://elitecuts.com",
+  url: "https://theshavecave.com",
   ogImage: "https://revu.website/88768/images/110184434_3118721111577612_931535001459384383_n.jpg",
   links: {
-    instagram: "https://instagram.com/elitecuts",
-    facebook: "https://facebook.com/elitecuts",
-    twitter: "https://twitter.com/elitecuts",
+    instagram: "https://instagram.com/theshavecave",
+    facebook: "https://facebook.com/theshavecave",
+    twitter: "https://twitter.com/theshavecave",
   }
 };
 
@@ -206,9 +206,9 @@ export const BUSINESS_HOURS = [
 ];
 
 export const LOCATION = {
-  address: "123 Main Street, New York, NY 10001",
-  phone: "(212) 555-1234",
-  email: "info@elitecuts.com",
+  address: "110 St Mark's Rd, Enfield EN1 1BB, United Kingdom",
+  phone: "+44 7999 535235",
+  email: "info@theshavecave.com",
   mapUrl: "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3022.9663095343054!2d-74.00425528459418!3d40.74076294379434!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x0!2zNDDCsDQ0JzI2LjgiTiA3NMKwMDAnMDkuMSJX!5e0!3m2!1sen!2sus!4v1620841122272!5m2!1sen!2sus"
 };
 

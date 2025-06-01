@@ -59,7 +59,10 @@ export default function Home() {
         <Gallery />
         <Team />
         <Testimonials />
-        <Booking />
+        {/*<Booking/> */}
+        <a id="booking">
+        <iframe src="https://app.acuityscheduling.com/schedule.php?owner=35943400&ref=embedded_csp" title="Schedule Appointment" width="100%" height="800" frameBorder="0"></iframe><script src="https://embed.acuityscheduling.com/js/embed.js" type="text/javascript"></script>
+        </a>
         <Faq />
         <Contact />
       </main>
