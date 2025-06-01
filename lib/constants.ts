@@ -13,50 +13,50 @@ export const SITE_CONFIG = {
 export const SERVICES = [
   {
     id: "haircut",
-    title: "Classic Haircut",
+    title: "Hair cut",
     description: "A timeless haircut tailored to your style and face shape, includes consultation, cut, and styling.",
-    price: "$35",
+    price: "£18",
     duration: "45 min",
     image: "https://images.pexels.com/photos/1805600/pexels-photo-1805600.jpeg"
   },
   {
-    id: "beard-trim",
-    title: "Beard Trim",
+    id: "skinfade-beard-trim-18",
+    title: "Skinfade + beard trim (shape up) 18+",
     description: "Expert beard shaping and trimming to keep your facial hair looking its best.",
-    price: "$25",
-    duration: "30 min",
+    price: "£30",
+    duration: "45 min",
     image: "https://images.pexels.com/photos/1319461/pexels-photo-1319461.jpeg"
   },
   {
-    id: "hot-towel-shave",
-    title: "Hot Towel Shave",
+    id: "skin-fade-zero-fade-18",
+    title: "Skin Fade/ zero fade 18yrs+",
     description: "The ultimate relaxing experience with hot towel preparation, premium shaving cream, and straight razor.",
-    price: "$40",
+    price: "£21.00",
     duration: "45 min",
     image: "https://images.pexels.com/photos/1683975/pexels-photo-1683975.jpeg"
   },
   {
-    id: "haircut-beard-combo",
-    title: "Haircut & Beard Combo",
-    description: "Our most popular service combining a precision haircut with expert beard grooming.",
-    price: "$55",
+    id: "skin-fade-hot-towel-steam-shave",
+    title: "Skinfade + hot towel + steam shave",
+    description: "Skinfade/ taper fade accompanied with a hot towel and steam shave",
+    price: "£35",
     duration: "1 hour",
     image: "https://images.pexels.com/photos/1570807/pexels-photo-1570807.jpeg"
   },
   {
-    id: "kids-haircut",
-    title: "Kids Haircut",
-    description: "Gentle haircuts for our younger clients in a friendly environment.",
-    price: "$25",
-    duration: "30 min",
+    id: "hair-cut-beard",
+    title: "Haircut & Beard",
+    description: "Any haircut (excluding skinfade/ taper fade ) & beard trim with shaping and sculpting.",
+    price: "£27",
+    duration: "45 min",
     image: "https://images.pexels.com/photos/2881253/pexels-photo-2881253.jpeg"
   },
   {
-    id: "hair-styling",
-    title: "Hair Styling",
-    description: "Styling service using premium products to achieve your desired look.",
-    price: "$20",
-    duration: "20 min",
+    id: "hair-cut-hot-towel-shave",
+    title: "Hair cut + hot towel shave",
+    description: "Hair cut + hot towel shave.",
+    price: "£30",
+    duration: "45 min",
     image: "https://images.pexels.com/photos/4969888/pexels-photo-4969888.jpeg"
   }
 ];
