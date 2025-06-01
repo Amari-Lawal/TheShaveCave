@@ -143,7 +143,7 @@ export const TEAM = [
     name: "James Wilson",
     role: "Master Barber",
     bio: "With over 15 years of experience, James specializes in classic cuts and precision fades.",
-    image: "https://images.pexels.com/photos/1251254/pexels-photo-1251254.jpeg"
+    image: "https://images.pexels.com/photos/1722198/pexels-photo-1722198.jpeg"
   },
   {
     id: "david-rodriguez",
