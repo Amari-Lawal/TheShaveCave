@@ -23,17 +23,17 @@ const galleryImages = [
   },
   {
     id: 4,
-    src: "https://images.pexels.com/photos/1684822/pexels-photo-1684822.jpeg",
+    src: "https://images.pexels.com/photos/1570807/pexels-photo-1570807.jpeg",
     alt: "Modern fade haircut"
   },
   {
     id: 5,
-    src: "https://images.pexels.com/photos/1682004/pexels-photo-1682004.jpeg",
+    src: "https://images.pexels.com/photos/1570807/pexels-photo-1570807.jpeg",
     alt: "Barber shop atmosphere"
   },
   {
     id: 6,
-    src: "https://images.pexels.com/photos/1813272/pexels-photo-1813272.jpeg",
+    src: "https://images.pexels.com/photos/1570807/pexels-photo-1570807.jpeg",
     alt: "Premium grooming service"
   }
 ];

@@ -34,7 +34,7 @@ import {
 } from "@/components/ui/form";
 import { toast } from "sonner";
 import { bookingFormSchema } from "@/lib/schema";
-import { SERVICES, TEAM } from "@/lib/constants";
+import { OTHER_SERVICES, SERVICES, TEAM } from "@/lib/constants";
 
 const timeSlots = [
   "9:00 AM", "9:30 AM", "10:00 AM", "10:30 AM", "11:00 AM", "11:30 AM", 
@@ -140,7 +140,7 @@ export default function Booking() {
                           </SelectTrigger>
                         </FormControl>
                         <SelectContent>
-                          {SERVICES.map((service) => (
+                          {SERVICES.concat(OTHER_SERVICES).map((service) => (
                             <SelectItem key={service.id} value={service.id}>
                               {service.title} - {service.price}
                             </SelectItem>
