@@ -36,7 +36,7 @@ export default function Hero() {
             <Button
               asChild
               size="lg"
-              className="bg-[#a3826b] hover:bg-amber-800 text-white px-8 py-6 rounded-none text-base"
+              className="bg-[#a3826b] hover:bg-amber-800 text-white px-8 py-6 rounded-none text-base rounded"
             >
               <Link href="/#booking">Book Appointment</Link>
             </Button>
@@ -44,7 +44,7 @@ export default function Hero() {
               asChild
               size="lg"
               variant="outline"
-              className="border-white text-white hover:bg-white/10 px-8 py-6 rounded-none text-base"
+              className="bg-[#2a2c32] border-white text-white hover:bg-white/10 px-8 py-6 rounded-none text-base rounded"
             >
               <Link href="/#services">View Services</Link>
             </Button>

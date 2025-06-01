@@ -1,0 +1,1 @@
+GIT_SSH_COMMAND="ssh -i C:\Users\amari/.ssh/id_ed25519" git push --set-upstream origin main
