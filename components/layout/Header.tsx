@@ -82,7 +82,7 @@ export default function Header() {
 
       {/* Mobile navigation */}
       {isMenuOpen && (
-        <div className="md:hidden bg-[#2a2c32]/95 absolute top-full left-0 right-0 pt-2 pb-6 px-4">
+        <div className="md:hidden bg-[#2a2c32]/95 absolute top-1/8 left-0 right-0 pt-2 pb-6 px-4 z-30">
           <div className="flex flex-col space-y-4">
             {navigation.map((item) => (
               <Link
